@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/Wolverine1122/3-column-preview-card-component](https://github.com/Wolverine1122/3-column-preview-card-component)
-- Live Site URL: [https://festive-ramanujan-09943d.netlify.app/](https://festive-ramanujan-09943d.netlify.app/)
+- Live Site URL: [http://bez.codes/](http://bez.codes/)
 
 ## My process
 
