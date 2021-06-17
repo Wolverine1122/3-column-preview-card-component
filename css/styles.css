@@ -1,0 +1,175 @@
+body {
+  margin: 0;
+  background-color: hsl(0, 0%, 95%);
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(200px, 1fr));
+  grid-template-rows: 85px 1fr 85px;
+  grid-template-areas:
+    " .  .    .        .               . "
+    " . tab1 tab2     tab3             . "
+    " .  .    .    attribution    attribution";
+}
+
+.item {
+  display: grid;
+  grid-template-rows: 0.8fr 2fr 1fr;
+  padding: 40px;
+}
+
+.tab1 {
+  grid-area: tab1;
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.tab2 {
+  grid-area: tab2;
+  background-color: hsl(184, 100%, 22%);
+}
+
+.tab3 {
+  grid-area: tab3;
+  background-color: hsl(179, 100%, 13%);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.attribution {
+  grid-area: attribution;
+  display: grid;
+  align-items: end;
+  justify-items: center;
+}
+
+p {
+  margin: 0;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+h2 {
+  color: hsl(0, 0%, 95%);
+  margin: 0;
+  font-family: "Big Shoulders Display", cursive;
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+.button-general {
+  text-align: center;
+  background-color: hsl(0, 0%, 95%);
+  border-radius: 30px;
+  padding: 10px 25px;
+  margin-top: 50px;
+  border: 2px solid hsl(0, 0%, 95%);
+  cursor: pointer;
+}
+
+.button-general:hover {
+  border: 2px solid hsl(0, 0%, 95%);
+  color: hsl(0, 0%, 95%);
+}
+
+.button1 {
+  color: hsl(31, 77%, 52%);
+}
+
+.button1:hover {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.button2 {
+  color: hsl(184, 100%, 22%);
+}
+
+.button2:hover {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.button3 {
+  color: hsl(179, 100%, 13%);
+}
+
+.button3:hover {
+  background-color: hsl(179, 100%, 13%);
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    grid-template-columns: 1fr 500px 1fr;
+    grid-template-rows: 85px 1fr 1fr 1fr 85px;
+    grid-template-areas:
+      " .                 .            ."
+      " .                tab1          ."
+      " .                tab2          ."
+      " .                tab3          ."
+      " attribution  attribution  attribution";
+  }
+
+  .attribution {
+    margin-bottom: 20px;
+  }
+
+  .tab1 {
+    border-radius: 10px 10px 0 0 !important;
+  }
+
+  .tab3 {
+    border-radius: 0 0 10px 10px !important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    grid-template-columns: 1fr 350px 1fr;
+    grid-template-rows: 85px 1fr 1fr 1fr 85px;
+    grid-template-areas:
+      " .                 .            ."
+      " .                tab1          ."
+      " .                tab2          ."
+      " .                tab3          ."
+      " attribution  attribution  attribution";
+  }
+
+  .attribution {
+    margin-bottom: 20px;
+  }
+
+  .tab1 {
+    border-radius: 10px 10px 0 0 !important;
+  }
+
+  .tab3 {
+    border-radius: 0 0 10px 10px !important;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .container {
+    grid-template-columns: 1fr 300px 1fr;
+    grid-template-rows: 85px 1fr 1fr 1fr 85px;
+    grid-template-areas:
+      " .                 .            ."
+      " .                tab1          ."
+      " .                tab2          ."
+      " .                tab3          ."
+      " attribution  attribution  attribution";
+  }
+
+  .attribution {
+    margin-bottom: 20px;
+  }
+
+  .tab1 {
+    border-radius: 10px 10px 0 0 !important;
+  }
+
+  .tab3 {
+    border-radius: 0 0 10px 10px !important;
+  }
+}
