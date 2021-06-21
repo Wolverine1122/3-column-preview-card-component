@@ -4,16 +4,11 @@ This is a solution to the [3-column preview card component challenge on Frontend
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
+- [The challenge](#the-challenge)
+- [Screenshot](#screenshot)
+- [Links](#links)
+- [Built with](#built-with)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
-## Overview
 
 ### The challenge
 
@@ -29,9 +24,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/Wolverine1122/3-column-preview-card-component](https://github.com/Wolverine1122/3-column-preview-card-component)
-- Live Site URL: [http://bez.codes/](http://bez.codes/)
-
-## My process
+- Live Site URL: [https://projects-accordioncard.netlify.app/](https://projects-accordioncard.netlify.app/)
 
 ### Built with
 
