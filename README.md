@@ -24,7 +24,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/Wolverine1122/3-column-preview-card-component](https://github.com/Wolverine1122/3-column-preview-card-component)
-- Live Site URL: [https://projects-accordioncard.netlify.app/](https://projects-accordioncard.netlify.app/)
+- Live Site URL: [https://projects-3columncard.netlify.app/](https://projects-3columncard.netlify.app/)
 
 ### Built with
 
